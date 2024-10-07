@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-
+// import com.
 
 public class Calculator implements ActionListener {
     JFrame frame;
@@ -22,6 +22,10 @@ public class Calculator implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 550);
         frame.setLayout(null);
+        frame.getContentPane().setBackground(Color.BLACK);
+        frame.getRootPane().setBorder(BorderFactory.createLineBorder(Color.black));
+        frame.setResizable(false);
+        frame.setVisible(true);
 
         textField = new JTextField();
         textField.setBounds(50, 25, 300, 50);
