@@ -1,7 +1,11 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
+<<<<<<< HEAD
 //import com.formdev.flatlaf.FlatLightLaf;
+=======
+// import com.
+>>>>>>> 4c8c70eab9041cc73642f96628c7b1a27198361b
 
 public class Calculator implements ActionListener {
     JFrame frame;
@@ -23,6 +27,10 @@ public class Calculator implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 550);
         frame.setLayout(null);
+        frame.getContentPane().setBackground(Color.BLACK);
+        frame.getRootPane().setBorder(BorderFactory.createLineBorder(Color.black));
+        frame.setResizable(false);
+        frame.setVisible(true);
 
         textField = new JTextField();
         textField.setBounds(50, 25, 300, 50);
