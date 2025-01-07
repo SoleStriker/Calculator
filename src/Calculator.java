@@ -17,7 +17,6 @@ public class Calculator implements ActionListener {
 
     Calculator() {
 
-        system.out.println("Test commit");
         frame = new JFrame("Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 550);
